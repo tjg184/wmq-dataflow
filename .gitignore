@@ -1,0 +1,21 @@
+# Created by https://www.gitignore.io/api/gradle,intellij
+
+### Custom libraries ###
+/lib/**
+
+### Gradle ###
+.gradle
+**/build
+
+### ActiveMQ ###
+**/activemq-data
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+### Intellij ###
+/.idea/
+/out/
+*.iws
+*.iml
+*.ipr

@@ -1,0 +1,7 @@
+jms:
+    queue:
+        queueManager: MQD1
+        host: 10.2.1.101
+        port: 1415
+        channel: CLIENT.TO.MQD1
+        queueName: MQD1.DEAD.QUEUE

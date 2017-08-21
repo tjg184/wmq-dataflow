@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+dependencies {
+    compile name: "mq-6.0.0.0"
+    compile name: "disthub-6.0.0.0"
+    compile name: "mqjms-6.0.0.0"
+
+    compile "javax.jms:jms-api:1.1-rev-1"
+    compile "javax.resource:connector-api:1.5"
+    compile "javax.transaction:jta:1.1"
+}
+

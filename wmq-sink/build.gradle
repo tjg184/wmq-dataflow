@@ -1,0 +1,7 @@
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    compile project(":wmq-library")
+}
+

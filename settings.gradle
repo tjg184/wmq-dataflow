@@ -1,0 +1,4 @@
+rootProject.name = 'wmq'
+include 'wmq-library'
+include 'wmq-sink'
+include 'wmq-source'
